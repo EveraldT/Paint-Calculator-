@@ -30,6 +30,12 @@ public class Main {
             int choice = scanner.nextInt();
 
             switch (choice) {
+                case 1: //enter wall dimensions
+                    System.out.println("enter the height of the wall: ");
+                    int height = scanner.nextInt();
+                    System.out.println("enter the width of the wall: ");
+                    int width = scanner.nextInt();
+                    System.out.println(height + width);
 
             }
 
